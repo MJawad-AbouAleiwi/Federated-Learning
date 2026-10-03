@@ -1,6 +1,9 @@
 # Federated Averaging - FedAvg
 
-An implementation of Federated Averaging (FedAvg).
+An implementation of **Federated Averaging (FedAvg)**, a federated learning
+algorithm in which many clients train a shared model on their own private data
+and a central server averages their model weights, so raw data never leaves
+the clients.
 
 ## How it Works
 1. The server holds a global model.
